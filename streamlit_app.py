@@ -3,7 +3,7 @@ import json
 import os
 
 # JSON dosyasını oku
-json_file = r"C:\Users\tahir\Desktop\finalveriseti\combined_questions.json"
+json_file = r"combined_questions.json"
 
 if not os.path.exists(json_file):
     st.error(f"Dosya bulunamadı: {json_file}")
