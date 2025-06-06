@@ -15,7 +15,7 @@ else:
     kelime = st.text_input(label="ı asked what you want ? i said painting she said aşkım sıralamalı sorular")
     questions = [q for q in questions if kelime in q["text"]]
     
-    st.title("nursenanın soru Görüntülemeci icin Uygulaması")
+    st.title("askim ramazan bayramin mubarek olsun bayram sekerisin keske senanur diye seker olsa ece cok kotu öle iste askim")
     st.write(f"Toplam {len(questions)} soru yüklendi.(nursena için senanur deil)")
 
     if questions:
